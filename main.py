@@ -7,7 +7,7 @@ opc = int(input("Escolha uma opcao: "))
 match opc:
     case 1:
         print("[1] Cachorro quente: 20R$")
-        print("[1] Hamburguer: 30R$")
+        print("[2] Hamburguer: 30R$")
         Lanche = int(input("Escolha um dos lanches: "))
         if Lanche == 1:
             ch = int(input("Quantos você deseja? "))
@@ -31,7 +31,7 @@ match opc:
             print("Você digitou uma opcao invalida!")
     case 3:
         print("[1] Sorvete: 15R$")
-        print("[1] Bolo: 8R$")
+        print("[2] Bolo: 8R$")
         Sobremesa = int(input("Escolha uma das sobremesas: "))
         if Sobremesa == 1:
             sv = int(input("Quantos você deseja?: "))
